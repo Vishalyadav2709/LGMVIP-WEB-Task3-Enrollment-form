@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+    
+</head>
+
+<body>
+    <h1>Student Enrollment Form</h1>
+    <div id="container">
+        <table id="Form">
+            <thead>
+                <tr>
+                   <div class="heading">
+                       <td>Name</td>
+                  
+                    <td><input type="text" name="name" id="name1" placeholder="Name" ></td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="email" id="email" placeholder="Email"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="text" name="age" id="age" placeholder="Age"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="text" name="Gender" id="Gender" placeholder="Gender"></td>
+                </tr>
+                <tr>
+                    <td>Skills</td>
+                    <td><input type="text" name="skills" id="skills" placeholder="skills"></td>
+                </tr>
+                <tr id="btna">
+                    <td colspan="2"><input type="button" name="button" id="btn" value="Enroll" onclick="AddRow()"></td>
+
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="clear1" onclick="Clear1()">Clear</button></td> 
+                </tr>
+               
+               
+            </tbody>
+        
+        </table>
+       
+        <table id="show">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                  <th>Gender</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>skills</th>
+                </tr>
+              
+            </thead>
+        </table>
+
+    </div>
+</body>
+
+</html>
